@@ -5,7 +5,7 @@ import { Home } from './src/screens/Home';
 export default function App() {
   return (
     <NativeBaseProvider theme={TEMAS}>
-      <StatusBar></StatusBar>
+      <StatusBar backgroundColor={TEMAS.colors.gray}></StatusBar>
       <Home></Home>
     </NativeBaseProvider>
   );
